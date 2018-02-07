@@ -14,12 +14,17 @@ body {
     float: left;
 }
 
-.cc-bar-button, li a, a:hover {
+.cc-bar-button, .cc-bar-button:hover {
+  text-decoration: none;
   display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+}
+
+.cc-bar-logo {
+  display: inline-block;
+  padding: 14px 16px;
 }
 
 li.cc-dropdown {
@@ -27,7 +32,7 @@ li.cc-dropdown {
     position: absolute;
 }
 
-li a:hover, .cc-dropdown:hover {
+.cc-bar-button:hover, .cc-dropdown:hover {
     background-color: #8c8c8c;
 }
 
